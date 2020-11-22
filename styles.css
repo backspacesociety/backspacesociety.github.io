@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Hacked;
+    src: url('8693.ttf');
+}
+
+
+body {
+    background-color: #000180;
+    background-image: url('./bsod.png');
+    background-size: cover;
+    color: white;
+    font-family: Hacked;
+}
+
+.fsociety {
+    text-align: center;
+    font-weight: normal;
+}
+
+.who {
+    text-align: center;
+    font-weight: normal;
+    font-size: 64px;
+}
+
+hr {
+    color: white;
+    height: 10px;
+    background-color: white;
+}
+
+#wrapper {
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    background-color: #2166FF;
+}
+
+#wrapper h1 {
+    color: white;
+    opacity: 1;
+}
