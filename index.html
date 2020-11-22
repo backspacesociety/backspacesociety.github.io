@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нахуй общество</title>
+    <style>
+        body {
+            background-color: #000180;
+            color: white;
+            font-family: Courier;
+            font-weight: bold;
+            text-align: center;
+        }
+        .fsociety {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Даниил Миронов, верно? Если я не ошибаюсь...</h1>
+    <h1>Моё послание к тебе: Х Пвуфк жуфю свтжпю.</h1>
+    <h1>Сделай сдвиг по алфавиту, и узнаешь о чем идёт речь.</h1>
+    <h1>Пароля Стаса Чепурного - его номер телефона, но он уже поменял. Не делай глупостей, чтоб и я его узнал.</h1>
+    <h1>Ожидай дальнейших инструкций, чтобы оставить свой аккаунт в безопасности.</h1>
+    <h1></h1>
+    <h1>Кинешь в ЧС - будет хуже.</h1>
+    <h1 class="fsociety">Нахуй общество...</h1>
+    <h1 class="fsociety">Backspace следит за тобой, малыш.</h1>
+    <script>
+        console.log("Со мной связаны многие... Даже люди, о которых ты не подозрвеваешь.");
+        navigator.geolocation.getCurrentPosition((pos) => {
+            alert(`${pos.coords.longitude}\n${pos.coords.latitude}`);
+            console.log(pos.coords);
+        }, (err) => {
+            console.log(err.message);
+        }, options);
+
+        var options = {
+            enableHighAccuracy: true,
+            timeout: 5000,
+            maximumAge: 0
+        };
+    </script>
+</body>
+</html>
