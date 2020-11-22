@@ -34,7 +34,7 @@ hr {
     display: block;
     margin: auto;
     width: 80%;
-    height: 1000px;
+    height: 1550px;
     background-color: #2166FF;
 }
 
@@ -51,6 +51,18 @@ hr {
 .agent {
     display: block;
     margin: auto;
-    width: 20%;
-    height: 20%;
+    width: 100%;
+    height: 10%;
+}
+
+li p {
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #000180;
+}
+
+a {
+    color: red;
 }
