@@ -34,7 +34,7 @@ hr {
     display: block;
     margin: auto;
     width: 80%;
-    height: 2000px;
+    height: 1600px;
     background-color: #2166FF;
 }
 
@@ -65,4 +65,12 @@ footer {
 
 a {
     color: red;
+}
+
+.container {
+    background-color: #2166FF;
+}
+
+.page-footer {
+    background-color: #1400FF;
 }
