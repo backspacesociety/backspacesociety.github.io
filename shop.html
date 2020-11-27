@@ -79,6 +79,54 @@
                   Подробности о покупке - в ЛС Backspace. Пока веб-мани не буду оставлять, ибо лень. Потом как-нибудь завезу.
                 </div>
               </div>
+              <hr />
+              <h1 class="fsociety">Бесплатные товары: </h1>
+              <h1 class="fsociety">Генератор надежных паролей (Python)</h1>
+              <center><img src="./passwordgen.PNG" width="500" height="500" class="img-fluid" alt=""></center>
+              <p class="fsociety">Цена: 0 грн.</p>
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#passwords" aria-expanded="false" aria-controls="collapseExample">
+                  Описание товара
+                </button>
+                <a href="./python scripts/passwords.py" download><button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#backspace" aria-expanded="false" aria-controls="collapseExample">
+                  Скачать
+                </button></a>
+              </p>
+              <div class="collapse" id="passwords">
+                <div class="card card-body">
+                  Без лишних слов, в названии и так понятно.
+                  <p></p>
+                  Код:
+                  <code>
+                    import random <br>
+
+                        def generate_password():<br>
+                            result = ""<br><br>
+
+                            letters = "qwertyuiopasdfghjklzxcvbnm"<br>
+                            letters = list(letters)<br>
+                            while(len(result) != 16):<br><br>
+
+                                letter = random.choice(letters)<br><br>
+
+                                if (random.randint(0, 1) == 1):<br>
+                                    letter = letter.upper()<br>
+                                    result += letter + str(random.randint(0, 9))<br>
+                                else:<br>
+                                    result += letter + str(random.randint(0, 9))<br><br>
+
+                            return result<br><br>
+
+                        password = generate_password()<br><br>
+
+                        print(password)<br>
+                  </code>
+
+                  Запуск: "python passwords.py"
+                  <p></p>
+                  Подробности о покупке - в ЛС Backspace. Пока веб-мани не буду оставлять, ибо лень. Потом как-нибудь завезу.
+                </div>
+              </div>
         </div>
     </main>
 </body>
