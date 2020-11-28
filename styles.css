@@ -5,9 +5,8 @@
 
 
 body {
-    background-color: #000180;
-    background-image: url('./bsod.png');
-    background-size: cover;
+    background-image: url('./Backspace.png');
+    background-size: auto 100%;
     color: white;
     font-family: Hacked;
 }
